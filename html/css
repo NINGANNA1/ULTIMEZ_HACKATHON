@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ULTIMEZ HACKATHAN</title>
+    <style type="text/css">
+        h4{background-color:blue;}
+
+    </style>
+</head>
+<body>
+
+<h4>ULTRAMEZ &nbsp &nbsp &nbsp &nbsp
+    <a href=""> Who we are </a>&nbsp&nbsp
+     <a href=""> Solutions </a>&nbsp&nbsp
+     <a href=""> portfolio </a>&nbsp&nbsp
+     <a href=""> case studies </a>&nbsp&nbsp
+     <a href=""> carriers </a>&nbsp&nbsp
+     <a href=""> contact us </a>&nbsp&nbsp
+     <a href=""> login </a>&nbsp&nbsp
+</h4>
+<img src="D:/fuel/image.png" width="134" height="180">
+
+
+<h3>We craftdigital stratergies that turn </h3>
+<h3>your brand into a digital sensation</h3>
+<br><br>
+<h1>TELL US EVERY-THING</h1>
+
+<form>
+
+
+    <input type="text" name="t1" placeholder="Name*">
+    <input type="email" name="em" placeholder="Email*"> <br> <br>
+    <input type="mobile number" name="tel" placeholder="Phone Number*" pattern="[6-9]{1}[0-9]{9}">
+    <input type="text" name="t2" placeholder="Country*"> <br> <br>
+    <input type="text" name="t3" placeholder="City*">
+    <input type="text" name="t4" placeholder="Company Name*"> <br> <br>
+   Message <br> <input type="text" name="t1" placeholder="Type Here..." cell-padding="20">
+    <br><br><input type="submit" name="sub">
+
+
+</form>
+
+<h4>ULTIMEZ <br> <br>Lets Build Future Together
+    <h4>
+        ultimez technology,industry Specific Software
+    </h4>
+</h4>
+
+</body>
+</html>
