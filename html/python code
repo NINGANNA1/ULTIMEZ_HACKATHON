@@ -1,0 +1,31 @@
+def calculate_slices(people_count):
+    large_slices = 8
+    medium_slices = 6
+    regular_slices = 4
+    small_slices = 1
+
+    # Calculate the number of pizzas needed for each type
+    large_pizzas = people_count // large_slices
+    people_count %= large_slices
+
+    medium_pizzas = people_count // medium_slices
+    people_count %= medium_slices
+
+    regular_pizzas = people_count // regular_slices
+    people_count %= regular_slices
+
+    small_pizzas = people_count // small_slices
+
+    return large_pizzas, medium_pizzas, regular_pizzas, small_pizzas
+
+def print_result(people_count, large_pizzas, medium_pizzas, regular_pizzas, small_pizzas):
+    print(f"If there are {people_count} individuals:")
+    print(f"1. We will need {large_pizzas} Large pizza(s)")
+    print(f"2. We will need {medium_pizzas} Medium pizza(s)")
+    print(f"3. We will need {regular_pizzas} Regular pizza(s)")
+    print(f"4. We will need {small_pizzas} Small pizza(s)")
+
+people_count = int(input("Enter the number of individuals: "))
+large_pizzas, medium_pizzas, regular_pizzas, small_pizzas = calculate_slices(people_count)
+print_result(people_count, large_pizzas, medium_pizzas, regular_pizzas, small_pizzas)
+
